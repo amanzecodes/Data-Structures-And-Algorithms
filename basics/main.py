@@ -70,9 +70,14 @@ class LinkedList:
         for _ in range(index):
             temp=temp.next
         return temp
-        
     
-
+    def set_value(self, index, value):
+        temp=self.get(index)
+        if temp:
+            temp.value=value
+            return True
+        return False
+        
 my_linked_list = LinkedList(0)
 my_linked_list.append(1)
 my_linked_list.append(2)
