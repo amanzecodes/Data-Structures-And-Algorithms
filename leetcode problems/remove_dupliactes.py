@@ -1,5 +1,4 @@
 #Pattern Recognised: 'Anchor + Runner'
-
 #' One pointer current chooses an element. Another pointer(runner) scnas ahead looking for elements that conflict with it'
 
 
